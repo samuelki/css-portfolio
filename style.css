@@ -1,0 +1,149 @@
+* {
+    font-family: "Arial";
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    width: 970px;
+    height: 950px;
+    background: radial-gradient(rgb(173, 144, 173), black);
+}
+
+.header {
+    width: 940px;
+    height: 30px;
+    background-color: rgb(247, 247, 247);
+    padding: 15px;
+}
+
+.header h2 {
+    display: inline-block;
+    margin-right: 480px;
+    font-family: "Comic Sans MS";
+}
+
+.header h3 {
+    display: inline-block;
+}
+
+.content {
+    padding: 20px; 
+    width: 930px;
+    height: 870px;
+    background: radial-gradient(#6f5964, #1f0f13);
+}
+
+.content img {
+    width: 400px;
+    border: 4px solid rgb(172, 172, 172);
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.about {
+    display: inline-block;
+    background: linear-gradient(to bottom right, #fffbfb, #dbcbda);
+    width: 486px;
+    height: 270px;
+    vertical-align: top;
+}
+
+.about h3 {
+    color: white;
+    background: linear-gradient(#c5c5c5, #777581, #c5c5c5);
+    padding: 10px;
+}
+
+.about p {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.about a {
+    padding: 10px;
+    color: black;
+}
+
+.projects {
+    background: linear-gradient(to bottom right, #fffbfb, #dbcbda);
+    width: 293px;
+    height: 570px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 14px;
+}
+
+.projects h3 {
+    width: 273px;
+    padding: 5px 10px;
+    color: white;
+    background: linear-gradient(#c5c5c5, #777581, #c5c5c5);
+}
+
+.projects img, .projects ul {
+    width: 293px;
+    border: none;
+    margin: 0;
+}
+
+.projects p {
+    width: 270px;
+    height: 150px;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.tech {
+    padding: 15px 0px 0px 15px;
+}
+
+.tech img {
+    width: 40px;
+}
+
+.tech li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.projects button {
+    background-color: rgb(0, 107, 0);
+    box-shadow: 2px 2px 15px 0 rgb(49, 49, 49);
+    color: white;
+    font-weight: 700;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 12px 100px;
+    white-space: nowrap;
+}
+
+.footer {
+    width: 970px;
+    height: 50px;
+    background-color: rgb(247, 247, 247)
+}
+
+.footer p {
+    margin: 7px auto;
+    width: 240px;
+}
+
+.footer img {
+    width: 20px;
+}
+
+.footer ul {
+    width: 360px;
+    margin: auto;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer a {
+    font-style: italic;
+    color: black;
+}
